@@ -197,7 +197,7 @@
 #define debugE(fmt, ...) rdebugEln(fmt, ##__VA_ARGS__)
 #define debugA(fmt, ...) rdebugAln(fmt, ##__VA_ARGS__)
 
-#define debugHandle() Debug.handle()
+//#define debugHandle() Debug.handle()
 
 // Macros used by code converter for codes with several prints to only message
 // due the converter cannot
